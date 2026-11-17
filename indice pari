@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int v[10]= {45, -24, 756, 43, -2, 7, -6, 23, -54, 67,};
+
+	for(int i = 0; i < 10; i++) {
+        if(v[i]% 2 == 0 ){
+            cout << i << " ";
+        }
+	}
+}
