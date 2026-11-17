@@ -1,0 +1,12 @@
+#include <iostream>
+using namespace std;
+int main() {
+	int v[10]= {45, -24, 756, 43, -2, 7, -6, 23, -54, 67,};
+
+
+	for(int i = 0 ; i < 10; i++) {
+        for(int j = 9; i < j; j--){
+            cout << v[j] << " ";
+        }
+	}
+}
